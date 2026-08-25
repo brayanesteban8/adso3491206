@@ -51,6 +51,19 @@ body {
                 font-weight: 400;
             }
         }
+        h3 {
+            color: #1acb16;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        xmp {
+            background-color: #0009;
+            border-radius:8px ;
+            padding: 0.6rem;
+            margin: 0;
+        }
     }
         header.mainmenu {
             &.internal {

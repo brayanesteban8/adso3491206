@@ -30,12 +30,33 @@ body {
             }
         }
     }
+    &.css {
+        background: linear-gradient(45deg, black, #663699);
+        main{
+            menu.mainmenu{
+                a:link, a:visited{
+                    span{
+                        background-color: #663399;
+                    }
+                }
+            }
+        }
+    }
     &.Emmet {
         background:linear-gradient(45deg, black, #1acb16) ;
 
     }
     &.html {
         background: linear-gradient(45deg, black #e44d26);
+        main{
+            menu.mainmenu{
+                a:link, a:visited{
+                    span{
+                        background-color: #e44d26;
+                    }
+                }
+            }
+        }
     }
 
     main {
